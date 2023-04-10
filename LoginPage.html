@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Validation.js"></script>
+
+    <title>2login page</title>
+    <style>
+        .fad {
+            margin-left: auto;
+            margin-right: auto;
+            width: 50em
+        }
+
+        .text-center {
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+    </style>
+    
+</head>
+<body>
+    <form class="fad">
+        <div>
+            <h1 style="color: blue;"><b>Log</b> in</h1>
+        </div>
+        <div>
+            <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline shadow-lg p-3 mb-5
+            bg-white rounded" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Signup Using Google</a>
+
+        </div>
+
+        <!-- Email input -->
+        <div>
+            <label class="form-group" for="email">Email address</label>
+            <input type="email" placeholder="name@company.com" id="email" class="form-control form-group"/>
+
+        </div>
+
+        <!-- Password input -->
+        <div>
+            <label class="form-group" for="pass">Password</label>
+            <input type="password" placeholder="********" id="pass" class="form-control form-group"/>
+
+        </div>
+        <div>
+            <label class="form-group" for="login"></label>
+            <button type="submit" class="btn btn-danger btn-block mb-4" id="login" onclick="myFunction()">Log in</button>
+
+        </div>
+        <div class="text-center">
+            <p><a href="#!">Forgot password?</a></p>
+        </div>
+    </form>
+</body>
+</html>
